@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="shortcut icon" href="imges/hero.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- <div id="preloader">
+       
+
+        <div class="loader-wrapper-ui">
+            <div class="loader-content">
+                <div class="cyber-circle">
+                    <div class="spinner"></div>
+                    <span class="loading-number">0%</span>
+                </div>
+                <div class="loader-info mt-4">
+                    <h1 class="loader-name" data-text="MOSTAFA EL-SAYED">Mostafa-Elsayed</h1>
+                    <div class="system-status">
+                        <span class="status-dot"></span>
+                        <p class="status-msg">INITIALIZING SYSTEM...</p>
+                    </div>
+                    <div class="loader-bar-container">
+                        <div class="loader-progress-fill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  -->
+    <div class="nav-wrapper fixed-top mt-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark custom-nav shadow-lg" data-aos="fade-down"
+                data-aos-duration="1000">
+                <div class="container-fluid d-flex justify-content-between align-items-center">
+
+                    <a class="navbar-brand fw-bold" href="#" data-aos="fade-right" data-aos-delay="200">
+                        Mostafa<span class="text-danger"> .</span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item" data-aos="fade-up" data-aos-delay="300">
+                                <a class="nav-link active-about" href="index.html">HOME</a>
+                            </li>
+
+                            <li class="nav-item" data-aos="fade-up" data-aos-delay="400">
+                                <a class="nav-link" href="About.html">ABOUT</a>
+                            </li>
+
+                            <li class="nav-item" data-aos="fade-up" data-aos-delay="500">
+                                <a class="nav-link" href="SERVICE.html">SERVICE</a>
+                            </li>
+
+                            <li class="nav-item" data-aos="fade-up" data-aos-delay="600">
+                                <a class="nav-link" href="my-project.html">PROJECT</a>
+                            </li>
+
+                            <li class="nav-item" data-aos="fade-up" data-aos-delay="700">
+                                <a class="nav-link" href="skills.html">SKILL</a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-up" data-aos-delay="700">
+                                <a class="nav-link" href="contact.html">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-btn-area d-none d-lg-block" data-aos="fade-left" data-aos-delay="800">
+                        <a href="https://wa.me/201551645120" class="btn-nav-action ">
+                            CHAT WITH ME <i class="fa-brands fa-whatsapp text-dark"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <section class="hero-section d-flex align-items-center position-relative overflow-hidden">
+        <div class="floating-shapes">
+            <div class="f-shape circle-red" data-aos="zoom-in" data-aos-duration="2000"></div>
+            <div class="f-shape square-border" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="2000"></div>
+            <div class="f-shape triangle-red" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="2000"></div>
+            <div class="f-shape dot-danger" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="2000"></div>
+        </div>
+
+        <div class="container position-relative" style="z-index: 5;">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6 text-white" data-aos="fade-right" data-aos-duration="1200">
+                    <h5 class="text-danger fw-bold mb-3 ">Welcome</h5>
+                    <h1 class="display-3 fw-bold main-title">
+                        Hello Everyone I'm<br>
+                        <span id="typing-text" class="text-danger"></span>
+                    </h1>
+
+                    <p class="lead text-white my-4">
+                        I’m a Front-end Developer dedicated to crafting pixel-perfect,
+                        responsive, and high-performance websites with a focus on
+                        clean code and seamless user experiences..
+                    </p>
+
+                    <div class="btn-group-custom d-flex gap-3">
+                        <a href="#" class="btn-slide">Hire Me</a>
+                        <a href="#" class="btn-slide outline">Download CV</a>
+                    </div>
+
+                    <div class="social-links-area mt-5" data-aos="fade-up" data-aos-delay="600">
+                        <p class="text-danger mb-3 ">FOLLOW ME :</p>
+                        <ul class="list-unstyled d-flex gap-3 custom-social">
+                            <li><a href="https://www.facebook.com/share/1BKGEeEMpa/" data-name="Facebook"><i
+                                        class="fa-brands fa-facebook-f"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/mostafa_elsayed241?utm_source=qr&igsh=bWJxNnNuaHBjbHFj"
+                                    data-name="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+
+                            <li><a href="https://www.linkedin.com/in/mostafa-elsayed-b96178335?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                                    data-name="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://wa.me/201551645120" data-name="WhatsApp"><i
+                                        class="fa-brands fa-whatsapp"></i></a></li>
+
+                            <li><a href="https://github.com/mostafaelsayedalkhalifa-source" data-name="GitHub"><i
+                                        class="fa-brands fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-5 mt-lg-0 text-center" data-aos="zoom-in" data-aos-duration="1500"
+                    data-aos-delay="300">
+                    <div class="image-wrapper floating-anim">
+                        <div class="neon-border">
+                            <img src="imges/hero.jpeg" alt="Mostafa" class="hero-img">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="dashboard-wrapper">
+                        <div class="badge-item badge-top-left"><i class="fas fa-terminal"></i>html</div>
+                        <div class="badge-item badge-top-right"><i class="fas fa-cloud"></i> js</div>
+                        <div class="badge-item badge-bottom-left"><i class="fas fa-server"></i> css</div>
+                        <div class="badge-item badge-bottom-right"><i class="fas fa-shield-alt"></i>css</div>
+
+                        <div class="glass-card">
+                            <div class="card-header">
+                                <div class="dots"><span></span><span></span><span></span></div>
+                                <div class="header-status"><span class="pulse-dot"></span>we school</div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="code-lines">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line long"></div>
+                                </div>
+
+                                <div class="center-circle">
+                                    <div class="reload-icon">
+                                        <img src="imges/mo.jpeg" alt="Mostafa About">
+                                    </div>
+                                </div>
+
+                                <div class="runtime-box">
+                                    <p>Mostafa ....</p>
+                                    <div class="progress-bars">
+                                        <div class="bar"></div>
+                                        <div class="bar short"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 text-white ps-lg-5" data-aos="fade-left" data-aos-duration="1200">
+
+                    <h2 class="section-title">About <span class="text-danger">me</span></h2>
+
+                    <p class="about-text text-secondary mb-5">
+                        Hi, my name is Mostafa. I am a web developer and
+                        creative designer passionate about building digital
+                        experiences that are not only functional but also
+                        aesthetic. I believe that great work is born from a
+                        combination of precise logic and boundless
+                        creativity.
+                    </p>
+
+                    <div class="info-boxes">
+                        <div class="info-card d-flex align-items-center mb-3" data-aos="fade-left" data-aos-delay="200">
+                            <div class="icon-box me-3">
+                                <i class="fa-solid fa-location-dot text-danger"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">My Location</h6>
+                                <small class="text-secondary">Banha, Egypt</small>
+                            </div>
+                        </div>
+
+                        <div class="info-card d-flex align-items-center mb-4" data-aos="fade-left" data-aos-delay="400">
+                            <div class="icon-box me-3">
+                                <i class="fa-solid fa-phone text-danger"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">My Phone Number</h6>
+                                <small class="text-secondary"><span class="text-danger">(+20 ) </span> 01551645120</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in" data-aos-delay="600">
+                        <a href="#" class="btn-slide outline mt-3">Download CV</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="logos-slider">
+        <div class="slider-container">
+            <div class="slider-track">
+                <div class="slide"><i class="fa-brands fa-html5"></i></div>
+                <div class="slide"><i class="fa-brands fa-css3"></i></div>
+                <div class="slide"><i class="fa-brands fa-square-js"></i></div>
+                <div class="slide"><i class="fa-brands fa-python"></i></div>
+                <div class="slide"><i class="fa-brands fa-bootstrap"></i></div>
+                <div class="slide"><i class="fa-brands fa-sass"></i></div>
+                <div class="slide"><i class="fa-brands fa-html5"></i></div>
+                <div class="slide"><i class="fa-brands fa-css3"></i></div>
+                <div class="slide"><i class="fa-brands fa-square-js"></i></div>
+                <div class="slide"><i class="fa-brands fa-python"></i></div>
+                <div class="slide"><i class="fa-brands fa-bootstrap"></i></div>
+                <div class="slide"><i class="fa-brands fa-sass"></i></div>
+            </div>
+        </div>
+
+        <div class="slider-container">
+            <div class="slider-track-reverse">
+                <div class="slide"><i class="fa-brands fa-react"></i></div>
+                <div class="slide"><i class="fa-brands fa-node-js"></i></div>
+                <div class="slide"><i class="fa-brands fa-git-alt"></i></div>
+                <div class="slide"><i class="fa-brands fa-php"></i></div>
+                <div class="slide"><i class="fa-solid fa-database"></i></div>
+                <div class="slide"><i class="fa-brands fa-laravel"></i></div>
+                <div class="slide"><i class="fa-brands fa-react"></i></div>
+                <div class="slide"><i class="fa-brands fa-node-js"></i></div>
+                <div class="slide"><i class="fa-brands fa-git-alt"></i></div>
+                <div class="slide"><i class="fa-brands fa-php"></i></div>
+                <div class="slide"><i class="fa-solid fa-database"></i></div>
+                <div class="slide"><i class="fa-brands fa-laravel"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section py-5 overflow-hidden">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-down" data-aos-duration="1000">
+                My <span class="text-danger">Skills <span class="text-light">.</span></span>
+            </h2>
+
+            <div class="skills-flex-container">
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-icon-box"><i class="fa-brands fa-html5"></i></div>
+                    <div class="skill-info-wrapper">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="skill-label">HTML5</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="--width: 95%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-icon-box"><i class="fa-brands fa-css3-alt"></i></div>
+                    <div class="skill-info-wrapper">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="skill-label">CSS3</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="--width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-icon-box"><i class="fa-brands fa-js"></i></div>
+                    <div class="skill-info-wrapper">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="skill-label">JavaScript</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="--width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-icon-box"><i class="fa-brands fa-wordpress"></i></div>
+                    <div class="skill-info-wrapper">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="skill-label">Wordpress</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="--width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="skill-icon-box"><i class="fa-brands fa-bootstrap"></i></div>
+                    <div class="skill-info-wrapper">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="skill-label">Bootstrap</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="--width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="skill-icon-box"><i class="fa-brands fa-tailwind-css"></i></div>
+                    <div class="skill-info-wrapper">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="skill-label">Tailwind CSS</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="--width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="skill-icon-box"><i class="fa-solid fa-code-branch"></i></div>
+                    <div class="skill-info-wrapper">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="skill-label">Git</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="--width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="800">
+                    <div class="skill-icon-box"><i class="fa-brands fa-github"></i></div>
+                    <div class="skill-info-wrapper">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="skill-label">GitHub</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="--width: 88%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="900">
+                    <div class="skill-icon-box"><i class="fa-regular fa-heart"></i></div>
+                    <div class="skill-info-wrapper">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="skill-label">UI/UX <span class="text-danger">Design</span></span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="--width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="skill-icon-box"><i class="fa-solid fa-database"></i></div>
+                    <div class="skill-info-wrapper">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="skill-label">Database <span class="text-danger">SQL</span></span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="--width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section py-5 overflow-hidden">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000">
+                My <span class="text-danger">Recent work <span class="text-light">.</span></span>
+            </h2>
+
+            <div class="row g-4">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="project-card-v2 d-flex flex-column h-100">
+                        <div class="project-img-box flex-grow-1">
+                            <img src="imges/Screenshot 2026-03-15 215923.png" class="img-fluid w-100 h-100"
+                                alt="Project 1">
+                        </div>
+                        <div class="project-detail-box p-3 text-white">
+                            <h4 class="fw-bold mb-2">E-Commerce System</h4>
+                            <p class="m-4">
+                                A sophisticated landing page for mobile apps featuring a dual-theme interface,
+                                interactive pricing tables, and a fully responsive design.
+                            </p>
+                            <div class="d-flex gap-2">
+                                <button class="btn-slide btn-sm" data-bs-toggle="modal" data-bs-target="#videoModal1">
+                                    Live Demo <i class="fa-solid fa-play ms-1"></i>
+                                </button>
+                                <a href="https://mostafaelsayedalkhalifa-source.github.io/ON-SITE--4/"
+                                    class="btn-slide outline btn-sm">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+                    <div class="project-card-v2 d-flex flex-column h-100">
+                        <div class="project-img-box flex-grow-1">
+                            <img src="imges/Screenshot 2026-03-15 220057.png" class="img-fluid w-100 h-100"
+                                alt="Project 2">
+                        </div>
+                        <div class="project-detail-box p-3 text-white">
+                            <h4 class="fw-bold mb-2">Furni – Premium Furniture Store</h4>
+                            <p class="m-4">
+                                A feature-rich E-commerce platform for high-end furniture, featuring a dynamic shopping
+                                cart and real-time calculations.
+                            </p>
+                            <div class="d-flex gap-2">
+                                <button class="btn-slide btn-sm" data-bs-toggle="modal" data-bs-target="#videoModal2">
+                                    Live Demo <i class="fa-solid fa-play ms-1"></i>
+                                </button>
+                                <a href="https://mostafaelsayedalkhalifa-source.github.io/ON-SITE-5/"
+                                    class="btn-slide outline btn-sm">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5" data-aos="zoom-in" data-aos-duration="800">
+                <a href="my-project.html" class="btn-slide">View All Projects</a>
+            </div>
+        </div>
+
+        <div class="modal fade" id="videoModal1" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content bg-dark border-danger shadow-lg">
+                    <div class="modal-header border-0 pb-0">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-0">
+                        <div class="ratio ratio-16x9">
+                            <video controls class="w-100">
+                                <source src="imges/tailwend.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="videoModal2" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content bg-dark border-danger shadow-lg">
+                    <div class="modal-header border-0 pb-0">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-0">
+                        <div class="ratio ratio-16x9">
+                            <video controls class="w-100">
+                                <source src="imges/onsite 5.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="services" class="services-section py-5 overflow-hidden">
+        <div class="container text-center">
+
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000">
+                My <span class="text-danger">Services <span class="text-light">.</span></span>
+            </h2>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-5" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="service-card p-5 h-100">
+                        <div class="service-icon mb-4">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3 text-uppercase">Full Stack</h3>
+                        <p class="text-secondary mb-4">
+                            Providing comprehensive web solutions from server-side logic to front-end interactivity,
+                            ensuring a seamless and integrated digital product.
+                        </p>
+                        <div class="service-tags d-flex flex-wrap justify-content-center gap-2">
+                            <span class="tag-outline">MERN Stack</span>
+                            <span class="tag-outline">API Design</span>
+                            <span class="tag-outline">Deployment</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-5" data-aos="fade-left" data-aos-duration="1200">
+                    <div class="service-card p-5 h-100">
+                        <div class="service-icon mb-4">
+                            <i class="fa-solid fa-bezier-curve"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3 text-uppercase">UI/UX Design</h3>
+                        <p class="text-secondary mb-4">
+                            Creating user-centric designs and prototypes that focus on aesthetic appeal and intuitive
+                            usability to enhance customer satisfaction.
+                        </p>
+                        <div class="service-tags d-flex flex-wrap justify-content-center gap-2">
+                            <span class="tag-outline">Figma</span>
+                            <span class="tag-outline">Prototyping</span>
+                            <span class="tag-outline">Wireframing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 justify-content-center mt-4">
+                <div class="col-md-6 col-lg-5" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                    <div class="service-card p-5 h-100">
+                        <div class="service-icon mb-4">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3 text-uppercase">Back-end <span class="text-danger">Dev</span></h3>
+                        <p class="text-secondary mb-4">
+                            Building the backbone of applications with secure databases, efficient server logic, and
+                            scalable architectures using modern technologies.
+                        </p>
+                        <div class="service-tags d-flex flex-wrap justify-content-center gap-2">
+                            <span class="tag-outline">PHP / Laravel</span>
+                            <span class="tag-outline">MySQL</span>
+                            <span class="tag-outline">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-5" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+                    <div class="service-card p-5 h-100">
+                        <div class="service-icon mb-4">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3 text-uppercase">Front-end <span class="text-danger">Dev</span></h3>
+                        <p class="text-secondary mb-4">
+                            Developing responsive, high-performance user interfaces with clean code, ensuring
+                            pixel-perfect designs across all devices.
+                        </p>
+                        <div class="service-tags d-flex flex-wrap justify-content-center gap-2">
+                            <span class="tag-outline">React.js</span>
+                            <span class="tag-outline">Bootstrap</span>
+                            <span class="tag-outline">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact-section py-5 overflow-hidden" id="contact">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="section-title">Get In <span class="text-danger">Touch</span></h2>
+                <p class="text-white">Have a project in mind or just want to say hello? Drop me a message and let's <br>
+                    create something amazing together.</p>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1200">
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="mb-3 text-start">
+                            <label class="form-label text-white ms-1">Name</label>
+                            <input type="text" id="name" class="form-control custom-input" placeholder="Your name">
+                            <small class="error-text text-danger" id="nameError"></small>
+                        </div>
+                        <div class="mb-3 text-start">
+                            <label class="form-label text-white ms-1">Email</label>
+                            <input type="email" id="email" class="form-control custom-input"
+                                placeholder="your.email@example.com">
+                            <small class="error-text text-danger" id="emailError"></small>
+                        </div>
+                        <div class="mb-3 text-start">
+                            <label class="form-label text-white ms-1">Message</label>
+                            <textarea id="message" class="form-control custom-input" rows="5"
+                                placeholder="Tell me about your project..."></textarea>
+                            <small class="error-text text-danger" id="messageError"></small>
+                        </div>
+                        <button type="submit" class="btn btn-slide w-100 py-3">
+                            Send Message <i class="fa-regular fa-paper-plane ms-2"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+                    <h3 class="text-white mb-4">Let's Connect</h3>
+                    <p class="text-secondary mb-4">I'm always excited to work on new projects and collaborate with
+                        amazing people.</p>
+
+                    <div class="contact-info-list">
+                        <div class="contact-item d-flex align-items-center mb-4">
+                            <div class="icon-box email-icon me-3">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="text-start">
+                                <p class="mb-0 text-white fw-bold">Email</p>
+                                <span class="text-secondary small">mostafaelsayedalkhalifa@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item d-flex align-items-center mb-4">
+                            <div class="icon-box phone-icon me-3">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="text-start">
+                                <p class="mb-0 text-white fw-bold">Phone</p>
+                                <span class="text-secondary small"><span class="text-danger">(+20)</span>
+                                    01551645120</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item d-flex align-items-center mb-4">
+                            <div class="icon-box location-icon me-3">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="text-start">
+                                <p class="mb-0 text-white fw-bold">Location</p>
+                                <span class="text-secondary small">Cairo City, Egypt</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="responsive-carousel py-5">
+        <div class="container">
+            <h2 class="text-danger mb-4 " class="section-title"><span class="text-light">RESPONSIVE</span> DESIGN SHOTS
+                <span class="text-light">.</span>
+            </h2>
+            <div class="slider-container">
+                <div class="slider-track">
+                    <div class="slide-item">
+                        <div class="mockup-card">
+                            <div class="browser-bar"><span></span><span></span><span></span></div>
+                            <img src="imges/onsite3.png" class="img-main" alt="Desktop View">
+                            <div class="mobile-frame">
+                                <img src="imges/small on site3.png" alt="Mobile View">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide-item">
+                        <div class="mockup-card">
+                            <div class="browser-bar"><span></span><span></span><span></span></div>
+                            <img src="imges/Screenshot 2026-03-15 220057.png" class="img-main" alt="Desktop View">
+                            <div class="mobile-frame">
+                                <img src="imges/small onsite5.png" alt="Mobile View">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="mockup-card">
+                            <div class="browser-bar"><span></span><span></span><span></span></div>
+                            <img src="imges/Screenshot 2026-03-15 215923.png" class="img-main" alt="Desktop View">
+                            <div class="mobile-frame">
+                                <img src="imges/small tailwind.png" alt="Mobile View">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="mockup-card">
+                            <div class="browser-bar"><span></span><span></span><span></span></div>
+                            <img src="imges/Screenshot 2026-03-15 220057.png" class="img-main" alt="Desktop View">
+                            <div class="mobile-frame">
+                                <img src="imges/small onsite5.png" alt="Mobile View">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section py-5 overflow-hidden">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                    <h4 class="footer-logo mb-4 section-title">Mostafa <span class="text-danger">.</span></h4>
+                    <p class="text-secondary">Building modern, high-performance web experiences through elegant design,
+                        clean code, and the latest technologies.</p>
+                    <div class="social-links-area mt-5" data-aos="fade-up" data-aos-delay="600">
+                        <p class="text-danger mb-3">FOLLOW ME :</p>
+                        <ul class="list-unstyled d-flex gap-3 custom-social">
+                            <li><a href="https://www.facebook.com/share/1BKGEeEMpa/" data-name="Facebook"><i
+                                        class="fa-brands fa-facebook-f"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/mostafa_elsayed241?utm_source=qr&igsh=bWJxNnNuaHBjbHFj"
+                                    data-name="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+
+                            <li><a href="https://www.linkedin.com/in/mostafa-elsayed-b96178335?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                                    data-name="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://wa.me/201551645120" data-name="WhatsApp"><i
+                                        class="fa-brands fa-whatsapp"></i></a></li>
+
+                            <li><a href="https://github.com/mostafaelsayedalkhalifa-source" data-name="GitHub"><i
+                                        class="fa-brands fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 offset-lg-1" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="200">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="my-project.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 offset-lg-1" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="400">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <ul class="list-unstyled footer-contact">
+                        <li class="mb-3 text-white">
+                            <i class="fa-solid fa-envelope text-danger me-2"></i>
+                            mostafaelsayedalkhalifa@gmail.com
+                        </li>
+                        <li class="mb-3 text-white">
+                            <i class="fa-solid fa-location-dot text-danger me-2"></i>
+                            Cairo City, Egypt
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider mt-5 mb-4">
+
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0 text-secondary"><span class="text-danger">&copy;</span> 2026 <span
+                            class="text-danger"> Mostafa
+                            Elsayed</span> . All rights reserved.
+                        <br> a little touch of creativity and design
+                    </p>
+
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#home" class="back-to-top btn btn-danger btn-sm rounded-circle">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="chat-wrapper">
+            <div class="chat-card" id="chatCard">
+                <div class="chat-header d-flex justify-content-between align-items-center">
+                    <span>AI Assistant</span>
+                    <button id="closeChat" class="btn btn-link p-0"><i
+                            class="fa-solid fa-xmark text-danger"></i></button>
+                </div>
+                <div class="chat-body" id="chatBody">
+                    <div class="bot-msg">Welcome! I'm Mostafa's AI. How can I help you?</div>
+                </div>
+                <div class="chat-footer">
+                    <input type="text" id="chatInput" placeholder="Ask me something...">
+                    <button id="sendMessage"><i class="fa-solid fa-paper-plane text-danger"></i></button>
+                </div>
+            </div>
+            <button id="chatToggleButton" class="chat-btn">
+                <i class="fa-solid fa-robot"></i>
+            </button>
+        </div>
+    </footer>
+
+ 
+
+
+
+
+
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+   
+
+   
+</body>
+
+</html>

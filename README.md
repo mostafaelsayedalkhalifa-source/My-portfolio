@@ -25,7 +25,7 @@ You can check out the live version of this project here:
 * **JavaScript** - For interactivity (optional).
 * **Bootstrap** - CSS Framwork.
 * **Google Fonts & FontAwesome** - For typography and icons.
-* **AOS Libary** - For Animation.
+* **AOS Libarry** - For Animation.
 
 ---
 
